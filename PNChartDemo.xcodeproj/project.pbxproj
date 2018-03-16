@@ -226,8 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				34E17F211C2464FB00DBC20B /* Default-568h@2x.png */,
-				3ED57E0F204F0DC4003D6796 /* UICountingLabel.h */,
-				3ED57E0E204F0DC4003D6796 /* UICountingLabel.m */,
 				9FE15DE0190BB014004129F5 /* PNChart */,
 				0AF7A86D182AA9F6003645C4 /* PNChartDemo */,
 				6E984E521AE2AF2D00E817A0 /* PNChartTests */,
@@ -338,6 +336,8 @@
 		9FE15DE0190BB014004129F5 /* PNChart */ = {
 			isa = PBXGroup;
 			children = (
+				3ED57E0F204F0DC4003D6796 /* UICountingLabel.h */,
+				3ED57E0E204F0DC4003D6796 /* UICountingLabel.m */,
 				0A2922821A423FB300A42BC4 /* PNScatterChart.h */,
 				0A2922831A423FB300A42BC4 /* PNScatterChart.m */,
 				0A2922841A423FB300A42BC4 /* PNScatterChartData.h */,
