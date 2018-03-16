@@ -120,4 +120,7 @@ typedef NSString *(^PNYLabelFormatter)(CGFloat yLabelValue);
 /** whether show numbers*/
 @property (nonatomic, assign) BOOL isShowNumbers;
 
+/** Accessibility Label for each Bar. */
+@property (nonatomic) NSString *barAccessibilityLabel;
+
 @end

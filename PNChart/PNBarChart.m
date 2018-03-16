@@ -71,6 +71,7 @@
     _isShowNumbers       = YES;
     _yLabelPrefix        = @"";
     _yLabelSuffix        = @"";
+    _barAccessibilityLabel = @"%@";
 	_yLabelFormatter = ^(CGFloat yValue){
 		return [NSString stringWithFormat:@"%1.f",yValue];
 	};
@@ -177,6 +178,8 @@
                 label.textColor = _labelTextColor;
                 [label setTextAlignment:NSTextAlignmentCenter];
                 label.text = labelText;
+                label.accessibilityLabel = [NSString stringWithFormat:_barAccessibilityLabel, labelText, [_yValues[index] floatValue]];
+
                 //[label sizeToFit];
                 CGFloat labelXPosition;
                 if (_rotateForXAxisText){
